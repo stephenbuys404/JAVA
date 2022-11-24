@@ -1,4 +1,5 @@
 <?xml version='1.0'?>
+<!DOCTYPE test SYSTEM "test.dtd">
 <Movies>
   <Movie year="1946">
     <Title>It's a Wonderful Life</Title>
