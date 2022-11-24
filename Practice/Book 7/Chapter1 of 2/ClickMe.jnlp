@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+"
+    codebase="http://www.lowewriter.com/ClickMe" 
+    href="ClickMe.jnlp">
+    <information>
+        <title>ClickMe</title>
+        <vendor>LoweWriter</vendor>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+" 
+            href="http://www.oracle.com/technetwork/java/javase/downloads"/>
+        <jar href="ClickMe.jar"	
+            main="true" />
+    </resources>
+    <application-desc main-class="ClickMe">	
+    </application-desc>
+     <update check="background"/>
+</jnlp>
+
