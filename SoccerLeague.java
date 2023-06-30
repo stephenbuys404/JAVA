@@ -20,7 +20,7 @@ class SoccerLeagueManager {
 
     public SoccerLeagueManager() {
         matches = new ArrayList<>();
-        teamPoints = new TreeMap<>(); // Changed the HashMap to TreeMap
+        teamPoints = new TreeMap<>();
     }
 
     public void readMatchesFromFile(String fileName) {
